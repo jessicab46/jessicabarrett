@@ -1,299 +1,143 @@
-body {
-    background: #67B26F;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding: 0;
-    margin: 0;
-    font-family: 'Lato', sans-serif;
-    color: #000;
-}
-
-.student-profile .card {
-    border-radius: 10px;
-}
-
-.student-profile .card .card-header .profile_img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin: 10px auto;
-    border: 10px solid #ccc;
-    border-radius: 50%;
-}
-
-.student-profile .card h3 {
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.student-profile .card p {
-    font-size: 16px;
-    color: #000;
-}
-
-.student-profile .table th,
-.student-profile .table td {
-    font-size: 14px;
-    padding: 5px 10px;
-    color: #000;
-}
-
-/* ******************************************************
-	Author URI: https://codeconvey.com/
-	Demo Purpose Only - May not require to add.
-	font-family: "Raleway",sans-serif;
-*********************************************************/
-
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900');
-
-
-
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-article, header, section, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
-    display: block;
-}
-body {
-    color: #222;
-    font-size: 100%;
-    line-height: 24px;
-    margin: 0;
-	padding:0;
-	font-family: "Raleway",sans-serif;
-}
-a{
-	font-family: "Raleway",sans-serif;
-	text-decoration: none;
-	outline: none;
-}
-a:hover, a:focus {
-	color: #373e18;
-}
-section {
-    float: left;
-    width: 100%;
-	padding-bottom:3em;
-}
-h2 {
-    color: #1a0e0e;
-    font-size: 26px;
-    font-weight: 700;
-    margin: 0;
-    line-height: normal;
-	text-transform:uppercase;
-}
-h2 span {
-    display: block;
-    padding: 0;
-    font-size: 18px;
-    opacity: 0.7;
-    margin-top: 5px;
-	text-transform:uppercase;
-}
-
-#float-right{
-	float:right;	
-}
-
-/* ******************************************************
-	Script Top
-*********************************************************/
-
-.ScriptTop {
-    background: #fff none repeat scroll 0 0;
-    float: left;
-    font-size: 0.69em;
-    font-weight: 600;
-    line-height: 2.2;
-    padding: 12px 0;
-    text-transform: uppercase;
-    width: 100%;
-}
-
-/* To Navigation Style 1*/
-.ScriptTop ul {
-    margin: 24px 0;
-    padding: 0;
-    text-align: left;
-}
-.ScriptTop li{
-	list-style:none;	
-	display:inline-block;
-}
-.ScriptTop li a {
-    background: #6a4aed none repeat scroll 0 0;
-    color: #fff;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 600;
-    padding: 5px 18px;
-    text-decoration: none;
-    text-transform: capitalize;
-}
-.ScriptTop li a:hover{
-	background:#000;
-	color:#fff;
-}
-
-
-/* ******************************************************
-	Script Header
-*********************************************************/
-
-.ScriptHeader {
-    float: left;
-    width: 100%;
-    padding: 2em 0;
-}
-.rt-heading {
-    margin: 0 auto;
-	text-align:center;
-}
-.Scriptcontent{
-	line-height:28px;	
-}
-.ScriptHeader h1{
-	font-family: "brandon-grotesque", "Brandon Grotesque", "Source Sans Pro", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-    color: #6a4aed;
-    font-size: 26px;
-    font-weight: 700;
-    margin: 0;
-    line-height: normal;
-
-}
-.ScriptHeader h2 {
-    color: #312c8f;
-    font-size: 20px;
-    font-weight: 400;
-    margin: 5px 0 0;
-    line-height: normal;
-
-}
-.ScriptHeader h1 span {
-    display: block;
-    padding: 0;
-    font-size: 22px;
-    opacity: 0.7;
-    margin-top: 5px;
-
-}
-.ScriptHeader span {
-    display: block;
-    padding: 0;
-    font-size: 22px;
-    opacity: 0.7;
-    margin-top: 5px;
-}
-
-
-
-
-/* ******************************************************
-	Live Demo
-*********************************************************/
-
-
-
-
-
-/* ******************************************************
-	Responsive Grids
-*********************************************************/
-
-.rt-container {
-	margin: 0 auto;
-	padding-left:12px;
-	padding-right:12px;
-}
-.rt-row:before, .rt-row:after {
-  display: table;
-  line-height: 0;
-  content: "";
-}
-
-.rt-row:after {
-  clear: both;
-}
-[class^="col-rt-"] {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  padding: 0 15px;
-  min-height: 1px;
-  position: relative;
-}
-
-
-@media (min-width: 768px) {
-  .rt-container {
-    width: 750px;
-  }
-  [class^="col-rt-"] {
-    float: left;
-    width: 49.9999999999%;
-  }
-  .col-rt-6, .col-rt-12 {
-    width: 100%;
-  }
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<div class="resume-wrapper">
+	<section class="profile section-padding">
+		<div class="container">
+			<div class="picture-resume-wrapper">
+        <div class="picture-resume">
+        <span><img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt="" /></span>
+        <svg version="1.1" viewBox="0 0 350 350">
   
-}
+  <defs>
+    <filter id="goo">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -9" result="cm" />
+    </filter>
+  </defs>
+  
+  
+<g filter="url(#goo)" >  
+  
+  <circle id="main_circle" class="st0" cx="171.5" cy="175.6" r="130"/>
+  
+  <circle id="circle" class="bubble0 st1" cx="171.5" cy="175.6" r="122.7"/>
+  <circle id="circle" class="bubble1 st1" cx="171.5" cy="175.6" r="122.7"/>
+  <circle id="circle" class="bubble2 st1" cx="171.5" cy="175.6" r="122.7"/>
+  <circle id="circle" class="bubble3 st1" cx="171.5" cy="175.6" r="122.7"/>
+  <circle id="circle" class="bubble4 st1" cx="171.5" cy="175.6" r="122.7"/>
+  <circle id="circle" class="bubble5 st1" cx="171.5" cy="175.6" r="122.7"/>
+  <circle id="circle" class="bubble6 st1" cx="171.5" cy="175.6" r="122.7"/>
+  <circle id="circle" class="bubble7 st1" cx="171.5" cy="175.6" r="122.7"/>
+  <circle id="circle" class="bubble8 st1" cx="171.5" cy="175.6" r="122.7"/>
+  <circle id="circle" class="bubble9 st1" cx="171.5" cy="175.6" r="122.7"/>
+  <circle id="circle" class="bubble10 st1" cx="171.5" cy="175.6" r="122.7"/>
 
-@media (min-width: 1200px) {
-	.rt-container {
-		width: 1170px;
-	}
-	.col-rt-1 {
-		width:16.6%;
-	}
-	.col-rt-2 {
-		width:30.33%;
-	}
-	.col-rt-3 {
-		width:50%;
-	}
-	.col-rt-4 {
-		width: 67.664%;
-	}
-	.col-rt-5 {
-		width: 83.33%;
-	}
-	
-
-}
-
-@media only screen and (min-width:240px) and (max-width: 768px){
-	 .ScriptTop h1, .ScriptTop ul {
-		text-align: center;
-	}
-	.ScriptTop h1{
-		margin-top:0;
-		margin-bottom:15px;
-	}
-	.ScriptTop ul{
-		 margin-top:12px;		
-	}
-	
-	.ScriptHeader h1,
-	.ScriptHeader h2, 
-	.scriptnav ul{
-		text-align:center;	
-	}
-	.scriptnav ul{
-		 margin-top:12px;		
-	}
-	#float-right{
-		float:none;	
-	}
-	
-}
-
-
+</g>  
+</svg>
+      </div>
+         <div class="clearfix"></div>
+ </div>
+      <div class="name-wrapper">
+        <h1>John <br/>Anderson</h1><!-- YOUR NAME AND LAST NAME  -->
+      </div>
+      <div class="clearfix"></div>
+      <div class="contact-info clearfix">
+      	<ul class="list-titles">
+      		<li>Call</li>
+      		<li>Mail</li>
+      		<li>Web</li>
+      		<li>Home</li>
+      	</ul>
+        <ul class="list-content ">
+        	<li>+34 123 456 789</li> <!-- YOUR PHONE NUMBER  -->
+        	<li>j.anderson@gmail.com</li> <!-- YOUR EMAIL -->
+        	<li><a href="#">janderson.com</a></li> <!-- YOUR WEBSITE  -->
+        	<li>Los Angeles, CA</li> <!-- YOUR STATE AND COUNTRY  -->
+        </ul>
+      </div>
+      <div class="contact-presentation"> <!-- YOUR PRESENTATION RESUME  -->
+      	<p><span class="bold">Lorem</span> ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod congue nisi, nec consequat quam. In consectetur faucibus turpis eget laoreet. Sed nec imperdiet purus. </p>
+      </div>
+      <div class="contact-social clearfix">
+      	<ul class="list-titles">
+      		<li>Twitter</li>
+      		<li>Dribbble</li>
+      		<li>Codepen</li>
+      	</ul>
+        <ul class="list-content"> <!-- REMEMBER TO PUT THE URL ON THE HREF TAG  -->
+      		<li><a href="">@janderson</a></li> <!-- YOUR TWITTER USER  -->
+      		<li><a href="">janderson</a></li> <!-- YOUR DRIBBBLE USER  -->
+      		<li><a href="">janderson</a></li> <!-- YOUR BEHANCE USER  -->
+      	</ul>
+      </div>
+		</div>
+	</section>
+  
+  <section class="experience section-padding">
+  	<div class="container">
+  		<h3 class="experience-title">Experience</h3>
+      
+      <div class="experience-wrapper">
+      	<div class="company-wrapper clearfix">
+      		<div class="experience-title">Company name</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
+          <div class="time">Nov 2012 - Present</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
+      	</div>
+        
+        <div class="job-wrapper clearfix">
+        	<div class="experience-title">Front End Developer </div> <!-- JOB TITLE  -->
+          <div class="company-description">
+          	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p>  <!-- JOB DESCRIPTION  -->
+          </div>
+        </div>
+        
+        <div class="company-wrapper clearfix">
+      		<div class="experience-title">Company name</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
+          <div class="time">Nov 2010 - Present</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
+      	</div>
+        
+         <div class="job-wrapper clearfix">
+        	<div class="experience-title">Freelance, Web Designer / Web Developer</div> <!-- JOB TITLE  -->
+          <div class="company-description">
+          	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p>  <!-- JOB DESCRIPTION  -->
+          </div>
+        </div>
+        
+        <div class="company-wrapper clearfix">
+      		<div class="experience-title">Company name</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
+          <div class="time">Nov 2009 - Nov 2010</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
+      	</div> 
+        
+         <div class="job-wrapper clearfix">
+        	<div class="experience-title">Web Designer </div> <!-- JOB TITLE  -->
+          <div class="company-description">
+          	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p>   <!-- JOB DESCRIPTION  -->
+          </div>
+        </div>
+        
+      </div><!--Skill experience-->
+      
+      <div class="section-wrapper clearfix">
+      	<h3 class="section-title">Skills</h3>  <!-- YOUR SET OF SKILLS  -->
+        	<ul>
+        		<li class="skill-percentage">HTML / HTML5</li>
+        		<li class="skill-percentage">CSS / CSS3 / SASS / LESS</li>
+        		<li class="skill-percentage">Javascript</li>
+        		<li class="skill-percentage">Jquery</li>
+        		<li class="skill-percentage">Wordpress</li>
+        		<li class="skill-percentage">Photoshop</li>
+            
+        	</ul>
+        
+      </div>
+      
+      <div class="section-wrapper clearfix">
+        <h3 class="section-title">Hobbies</h3>  <!-- DESCRIPTION OF YOUR HOBBIES -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p>
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p> 
+      </div>
+      
+  	</div>
+  </section>
+  
+  <div class="clearfix"></div>
+</div>
