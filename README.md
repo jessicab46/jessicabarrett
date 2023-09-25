@@ -17,10 +17,12 @@
             padding: 0;
         }
         .page-header {
-            background-color: #0073e6;
-            color: #fff;
+            background-color: #f0f0f0;
+            color: #333;
             padding: 20px;
             text-align: center;
+        }
+
         }
         .container {
             max-width: 800px;
