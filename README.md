@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Jessica Barrett - Biomedical Engineering Student</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <style>
         body {
@@ -53,6 +52,7 @@
 </head>
 <body>
     <div class="page-header">
+        <h1>Jessica Barrett</h1>
         <p>4th Year Biomedical Engineering Student</p>
     </div>
     <div class="container">
