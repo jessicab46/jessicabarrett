@@ -21,8 +21,7 @@
             color: #333;
             padding: 20px;
             text-align: center;
-        }
-
+        
         }
         .container {
             max-width: 800px;
