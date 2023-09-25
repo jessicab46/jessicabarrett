@@ -40,6 +40,20 @@
         a:hover {
             color: #0073e6;
         }
+        h1 {
+            font-size: 2.5em;
+            text-transform: uppercase;
+            text-shadow: 2px 2px #ccc;
+            color: #333;
+        }
+        
+        .page-header {
+            background-color: #0073e6;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
     </style>
 </head>
 <body>
