@@ -1,10 +1,11 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Include Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
         body {
             font-family: 'Open Sans', sans-serif;
@@ -15,11 +16,13 @@
             margin: 0;
             padding: 0;
         }
+
         .page-header {
             background-color: #f0f0f0;
             color: #333;
             padding: 20px;
             text-align: center;
+            border-radius: 10px;
         }
         
         h1 {
@@ -29,23 +32,36 @@
             color: #333;
         }
         
-                .container {
+        .container {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px 15px;
             background-color: #fff;
             border: 1px solid #ccc;
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+            border-radius: 10px;
         }
+
         h2 {
             color: #333;
         }
+
         p {
             color: #666;
             line-height: 1.5;
         }
+
         a:hover {
             color: #0073e6;
+        }
+
+        .info-list li {
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .info-list li:hover {
+            background-color: #f0f0f0;
         }
 
     </style>
@@ -63,13 +79,13 @@
         <h2>Education</h2>
         <ul class="info-list">
             <li>
-                <i class="icon">🎓</i>
+                <i class="fas fa-graduation-cap"></i>
                 <span class="highlight">ME Biomedical Engineering</span><br>
                 University College Dublin<br>
                 2023-2025
             </li>
             <li>
-                <i class="icon">🌍</i>
+                <i class="fas fa-globe"></i>
                 <span class="highlight">Exchange semester Biomedical Engineering</span><br>
                 University of British Columbia<br>
                 Jan-Apr 2023
