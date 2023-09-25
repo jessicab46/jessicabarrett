@@ -53,7 +53,6 @@
 </head>
 <body>
     <div class="page-header">
-        <h1>Jessica Barrett</h1>
         <p>4th Year Biomedical Engineering Student</p>
     </div>
     <div class="container">
