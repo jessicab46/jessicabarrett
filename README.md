@@ -21,9 +21,16 @@
             color: #333;
             padding: 20px;
             text-align: center;
-        
         }
-        .container {
+        
+        h1 {
+            font-size: 2.5em;
+            text-transform: uppercase;
+            text-shadow: 2px 2px #ccc;
+            color: #333;
+        }
+        
+                .container {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px 15px;
@@ -31,7 +38,7 @@
             border: 1px solid #ccc;
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
         }
-        h1, h2 {
+        h2 {
             color: #333;
         }
         p {
@@ -40,19 +47,6 @@
         }
         a:hover {
             color: #0073e6;
-        }
-        h1 {
-            font-size: 2.5em;
-            text-transform: uppercase;
-            text-shadow: 2px 2px #ccc;
-            color: #333;
-        }
-        
-        .page-header {
-            background-color: #0073e6;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
         }
 
     </style>
