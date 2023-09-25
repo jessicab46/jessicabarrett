@@ -1,81 +1,57 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Jessica Barrett</title>
+    <title>Jessica Barrett - Biomedical Engineering Student</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            letter-spacing: 0.5px;
+            background-color: #fafafa;
             margin: 0;
             padding: 0;
-            background-color: #f8f8f8;
         }
-        .header {
+        .page-header {
             background-color: #0073e6;
             color: #fff;
             padding: 20px;
             text-align: center;
-            position: relative;
         }
         .container {
             max-width: 800px;
             margin: 20px auto;
-            padding: 20px;
+            padding: 20px 15px;
             background-color: #fff;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
         }
-        h1 {
-            color: #0073e6;
-        }
-        h2 {
+        h1, h2 {
             color: #333;
-            margin-top: 20px;
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 10px;
         }
         p {
-            line-height: 1.6;
+            color: #666;
+            line-height: 1.5;
         }
-        .highlight {
-            font-weight: bold;
+        a:hover {
             color: #0073e6;
-        }
-        .info-list {
-            list-style: none;
-            padding: 0;
-        }
-        .info-list li {
-            margin-bottom: 10px;
-        }
-        .decorative-line {
-            height: 1px;
-            background-color: #ddd;
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
-        .icon {
-            font-size: 24px;
-            vertical-align: middle;
-            margin-right: 5px;
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <div class="header-pattern"></div>
+    <div class="page-header">
         <h1>Jessica Barrett</h1>
-        <p>Biomedical Engineering Student</p>
+        <p>4th Year Biomedical Engineering Student</p>
     </div>
     <div class="container">
         <h2>Profile</h2>
         <p>
             I am a fourth-year biomedical engineering student with a proven ability to work effectively in teams and step into leadership roles when needed. My commitment to delivering high-quality work consistently drives me to excel in all aspects of my academic and professional pursuits. I thrive in maintaining a well-organized approach to my work, allowing me to efficiently manage tasks, meet deadlines, and infuse meticulous attention to detail into every project I undertake.
         </p>
-        
         <h2>Education</h2>
         <ul class="info-list">
             <li>
@@ -92,42 +68,35 @@
             </li>
             <!-- Add more education entries here if needed -->
         </ul>
+       
+        <!-- Add more education entries here if needed -->
         
         <h2>Work Experience</h2>
-        <ul class="info-list">
-            <li>
-                <i class="icon">💼</i>
-                <span class="highlight">Sales Team</span><br>
-                Berrymobile Fruit Distribution Co - Vancouver<br>
-                May 2023 - August 2023
-            </li>
-            <li>
-                <i class="icon">☕</i>
-                <span class="highlight">Barista</span><br>
-                Thru the Green Coffee Company - Dublin<br>
-                April 2022 - November 2022
-            </li>
-            <!-- Add more work experience entries here if needed -->
-        </ul>
+        <p>
+            <strong>Sales Team</strong><br>
+            Berrymobile Fruit Distribution Co - Vancouver<br>
+            May 2023 - August 2023
+        </p>
+        <p>
+            <strong>Barista</strong><br>
+            Thru the Green Coffee Company - Dublin<br>
+            April 2022 - November 2022
+        </p>
+        <!-- Add more work experience entries here if needed -->
         
         <h2>Achievements/Interests</h2>
-        <ul class="info-list">
-            <li>
-                <i class="icon">🏆</i>
-                <span class="highlight">Scholarship Winner</span><br>
-                Naughton Award<br>
-                2020
-            </li>
-            <li>
-                <i class="icon">🤖</i>
-                <span class="highlight">Active Club Member</span><br>
-                Robotics Club UCD<br>
-                2020-present
-            </li>
-            <!-- Add more achievements/interests entries here if needed -->
-        </ul>
-        
-        <div class="decorative-line"></div>
+        <p>
+            <strong>Scholarship Winner</strong><br>
+            Naughton Award<br>
+            2020
+        </p>
+        <p>
+            <strong>Active Club Member</strong><br>
+            Robotics Club UCD<br>
+            2020-present
+        </p>
+        <!-- Add more achievements/interests entries here if needed -->
+    <div class="decorative-line"></div>
         
         <h2>Contact Information</h2>
         <ul class="info-list">
@@ -147,3 +116,6 @@
     </div>
 </body>
 </html>
+
+
+       
