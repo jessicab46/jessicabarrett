@@ -20,15 +20,6 @@
             text-align: center;
             position: relative;
         }
-        .header-pattern {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: linear-gradient(45deg, #005ea8 25%, transparent 25%, transparent 50%, #005ea8 50%, #005ea8 75%, transparent 75%, transparent);
-            background-size: 15px 15px;
-        }
         .container {
             max-width: 800px;
             margin: 20px auto;
